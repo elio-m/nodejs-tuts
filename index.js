@@ -22,6 +22,7 @@ const server =  http.createServer((req, res) => {
 
     // Build filepath
     let filePath = path.join(__dirname, 'public', req.url === '/' ?  'index.html' : req.url);
+    console.log(filePath);
 
     //Extension of the file
     let extname = path.extname(filePath);
