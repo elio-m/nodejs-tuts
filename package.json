@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-tuts",
+  "version": "1.0.0",
+  "description": "node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elio-m/nodejs-tuts.git"
+  },
+  "author": "elio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elio-m/nodejs-tuts/issues"
+  },
+  "homepage": "https://github.com/elio-m/nodejs-tuts#readme",
+  "dependencies": {
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
